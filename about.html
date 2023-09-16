@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- Link to Bootstrap CSS -->
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+    />
+    <!-- Link to Tailwind CSS -->
+    <link
+      href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css"
+      rel="stylesheet"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+
+    <style>
+      /* Use "SF Mono" font for the entire body */
+      body {
+        font-family: "Poppins", sans-serif;
+        font-weight: 400;
+        font-size: 16px;
+      }
+      /* Update the font size for specific sections if needed */
+      .navbar-brand,
+      .nav-link,
+      .navbar-toggler-icon,
+      .text-white {
+        font-size: 18px; /* You can adjust the size as needed */
+      }
+    </style>
+    <title>Sang Coats</title>
+  </head>
+  <body>
+    <!-- Navigation Bar -->
+    <!-- Navigation Bar -->
+    <nav class="navbar navbar-expand-lg navbar-light bg-red-600">
+      <div class="container">
+        <a class="navbar-brand text-white" href="index.html"> Sang Coat </a>
+        <!-- Hamburger Menu Button -->
+        <button
+          class="navbar-toggler"
+          type="button"
+          data-toggle="collapse"
+          data-target="#navbarNav"
+          aria-controls="navbarNav"
+          aria-expanded="false"
+          aria-label="Toggle navigation"
+        >
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ml-auto">
+            <li class="nav-item">
+              <a class="nav-link text-white" href="index.html">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="about.html">About</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="services.html">Services</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link text-white" href="contact.html">Contact</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!-- Hero section -->
+    <section class="text-gray-600 body-font">
+      <div
+        class="container mx-auto h-screen flex px-5 py-24 md:flex-row flex-col items-center"
+      >
+        <div
+          class="lg:flex-grow md:w-1/2 lg:pr-24 md:pr-16 flex flex-col md:items-start md:text-left mb-16 md:mb-0 items-center text-center"
+        >
+          <h1
+            class="title-font sm:text-4xl text-3xl mb-4 font-extrabold text-gray-900"
+          >
+            About Sang Coat
+          </h1>
+          <p class="mb-8 text-left leading-relaxed">
+            Sang Coat boasts a rich and storied history that spans over four
+            remarkable decades. As a family-owned business, our legacy is a
+            testament to our unwavering commitment to excellence and our
+            relentless pursuit of perfection in the field of anodizing and
+            coating. Our journey began as a humble workshop, where we labored
+            tirelessly, driven by a deep passion for our craft. Over the years,
+            our dedication to quality, innovation, and customer satisfaction
+            propelled us forward, paving the way for our ascent to becoming a
+            renowned and respected name in the anodizing and coating industry.
+          </p>
+          <div class="flex justify-center">
+            <button
+              class="inline-flex text-white bg-red-600 border-0 py-2 px-6 focus:outline-none hover:bg-indigo-600 rounded text-lg"
+            >
+              Contact Us
+            </button>
+          </div>
+        </div>
+        <div class="lg:max-w-lg lg:w-full md:w-1/2 w-5/6">
+          <img
+            class="object-cover object-center rounded"
+            alt="hero"
+            src="./png 2.png"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="text-gray-600 bg-gray-100 body-font overflow-hidden">
+      <div class="container px-5 py-24 mx-auto">
+        <div class="-my-8 divide-y-2 divide-gray-100">
+          <div class="py-8 flex flex-wrap md:flex-nowrap">
+            <div class="md:flex-grow">
+              <h2
+                class="text-2xl font-medium text-red-600 font-extrabold title-font mb-2"
+              >
+                Our Story
+              </h2>
+              <p class="leading-relaxed border-b pb-4">
+                Sang Coat has been a family-owned business for over four
+                decades. We take immense pride in our journey from a small
+                workshop to a renowned name in the anodizing and coating
+                industry.
+              </p>
+            </div>
+          </div>
+          <div class="py-8 flex flex-wrap md:flex-nowrap">
+            <div class="md:flex-grow">
+              <h2
+                class="text-2xl font-medium text-red-600 font-extrabold title-font mb-2"
+              >
+                Our Mission
+              </h2>
+              <p class="leading-relaxed border-b pb-4">
+                Our mission is simple yet significant - to bring charm and
+                durability to your home interiors and exteriors. We accomplish
+                this by consistently delivering high-quality anodizing, electro
+                colours anodizing, powder coating, and polyurethane painting
+                services.
+              </p>
+            </div>
+          </div>
+          <div class="py-8 flex flex-wrap md:flex-nowrap">
+            <div class="md:flex-grow">
+              <h2
+                class="text-2xl font-medium text-red-600 font-extrabold title-font mb-2"
+              >
+                Our Team
+              </h2>
+              <p class="leading-relaxed border-b pb-4">
+                Behind our success is a team of dedicated professionals who are
+                passionate about what they do. From skilled technicians to
+                experienced painters, each member of our team plays a crucial
+                role in ensuring the satisfaction of our valued clients.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="text-gray-600 bg-red-600 body-font">
+      <div
+        class="container px-5 py-8 mx-auto flex items-center sm:flex-row flex-col"
+      >
+        <a
+          class="flex title-font font-medium items-center md:justify-start justify-center text-gray-900"
+        >
+          <span class="ml-3 text-xl text-gray-200">Sang Coat</span>
+        </a>
+        <p
+          class="text-sm sm:ml-4 sm:pl-4 sm:border-l-2 sm:border-gray-200 sm:py-2 sm:mt-0 mt-4 text-gray-200"
+        >
+          © 2023 Sang Coats
+        </p>
+        <span
+          class="inline-flex text-sm text-gray-200 sm:ml-auto sm:mt-0 mt-4 justify-center sm:justify-start"
+        >
+          <h3>
+            Address 1: 2, Municipal Industrial Estate,,<br />
+            P P Marg, Grant Road,<br />
+            Grant Road, Mumbai, Maharashtra 400008, India <br />
+            Telephone: +91-22-23071625 / +91-22-23073678
+          </h3>
+        </span>
+      </div>
+    </footer>
+
+    <!-- Link to Bootstrap and jQuery JavaScript files -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.5.3/dist/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+  </body>
+</html>
